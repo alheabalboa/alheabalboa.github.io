@@ -1,3 +1,20 @@
+.my-container {
+    box-sizing: border-box;
+    display: block;
+    position: relative;
+}
+
+/*header */
+header {
+    padding: 15px 0;
+}
+header h1 {
+    font-family: 'Modak', cursive;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
 /* banner */
 #banner {
     background-image: url('https://user-images.githubusercontent.com/52882960/67614274-95423f00-f7ec-11e9-9a74-cae5eecc203c.png');
