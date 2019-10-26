@@ -37,14 +37,25 @@
 
 .middle {
     text-align: center;
-    background-color:  #fffc;
+    background-color: 
+    #fffc;
     width: 50%;
     margin: 0 auto;
     padding: 50px 0;
     border-radius: 20px;
+    font-family: 'Modak', cursive;
+}
+
+.middle h1 {
+    font-size: 100px;
+}
+
+.middle p {
+    font-size: 50px;
 }
 
 hr {
   margin: auto;
-  width: 40%;
+  width: 75%;
+  border-top: 3px solid rgba(0, 0, 0, 0.6);
 } 
