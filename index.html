@@ -1,23 +1,23 @@
 <!DOCTYPE html>
 <html>
 <header id="main-header" class="my-container">
-	<link rel="stylesheet" type="text/css" href="/css/main.css">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-	<link href="https://fonts.googleapis.com/css?family=Modak&display=swap" rel="stylesheet"> 
-	<h1>Alhea Katryn Balboa</h1>
+<link rel="stylesheet" type="text/css" href="/css/main.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Modak&display=swap" rel="stylesheet"> 
+<h1>Alhea Katryn Balboa</h1>
 </header>
 <body>
 <section id="banner" class="my-container">
 	<div class="prof-img">
 		<img src="https://user-images.githubusercontent.com/52882960/67614307-69738900-f7ed-11e9-8694-d59b64e6fb66.png">
 	</div>
-	 <div class="bgimg">
-  <div class="middle">
-    <h1>COMING SOON</h1>
-    <hr>
-    <p>35 days</p>
-  </div>
-</div> 
+	<div class="bgimg">
+		  <div class="middle">
+			    <h1>COMING SOON</h1>
+			    <hr>
+			    <p>35 days</p>
+		  </div>
+	</div> 
 </section>
 <footer id="main-footer" class="my-container">
 </footer>
@@ -29,21 +29,21 @@ var countDownDate = new Date("Jan 5, 2021 15:37:25").getTime();
 
 var x = setInterval(function() {
 
-  var now = new Date().getTime();
-	
-  var distance = countDownDate - now;
+var now = new Date().getTime();
 
-  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+var distance = countDownDate - now;
 
-  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
-  + minutes + "m " + seconds + "s ";
+var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-  if (distance < 0) {
-    clearInterval(x);
-    document.getElementById("demo").innerHTML = "EXPIRED";
-  }
+document.getElementById("demo").innerHTML = days + "d " + hours + "h "
++ minutes + "m " + seconds + "s ";
+
+if (distance < 0) {
+clearInterval(x);
+document.getElementById("demo").innerHTML = "EXPIRED";
+}
 }, 1000); 
 </script>
