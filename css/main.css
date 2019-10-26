@@ -1,3 +1,10 @@
+/* banner */
+#banner {
+    background-image: url('https://user-images.githubusercontent.com/52882960/67614274-95423f00-f7ec-11e9-9a74-cae5eecc203c.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 50px 0;
+}
 #banner .prof-img img {
     border-radius: 50%;
 }
